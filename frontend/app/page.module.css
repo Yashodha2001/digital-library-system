@@ -69,39 +69,48 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.25rem;
-  width: min(920px, 100%);
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.75rem;
+  width: min(1000px, 100%);
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   border: 2px solid #bfddf0;
-  border-radius: 16px;
-  padding: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-  box-shadow: 0 4px 20px rgba(140, 192, 235, 0.2);
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s, border-color 0.3s;
+  box-shadow: 0 6px 24px rgba(140, 192, 235, 0.15);
+  text-decoration: none;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: #8cc0eb;
-  box-shadow: 0 8px 28px rgba(140, 192, 235, 0.35);
+  box-shadow: 0 12px 36px rgba(140, 192, 235, 0.3);
 }
 
 .card h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.35rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
   color: #2c3e50;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 1.05rem;
+  line-height: 1.5;
   color: #5a6c7d;
 }
 
 .cardAlt {
   background: #ffebcc;
+  border-color: #ffd8a8;
+}
+
+.cardAlt:hover {
+  border-color: #fcc419;
 }
 
 .loading {
