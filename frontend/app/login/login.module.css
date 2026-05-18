@@ -1,0 +1,50 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.box {
+  width: min(420px, 100%);
+}
+
+.box h1 {
+  margin-bottom: 0.35rem;
+  text-align: center;
+}
+
+.hint {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #5a6c7d;
+  margin-bottom: 1.25rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #5a9fd4;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #5a6c7d;
+}
+
+.switch a {
+  color: #5a9fd4;
+  font-weight: 600;
+}
