@@ -143,8 +143,8 @@ npm run dev
 
 ```json
 {
-  "name": "thami",
-  "email": "thami@mail.com",
+  "name": "saman",
+  "email": "user@mail.com",
   "password": "123456",
   "role": "student"
 }
@@ -155,7 +155,7 @@ npm run dev
 
 ```json
 {
-  "email": "thami@mail.com",
+  "email": "user@mailyasho.com",
   "password": "123456"
 }
 
